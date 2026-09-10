@@ -8870,6 +8870,19 @@ body.tw-magic-cursor #magic-cursor {
 .portfolio-three-btn {
   background: #e4e4e4;
 }
+.portfolio-three-shape {
+  top: 170px;
+}
+@media screen and (max-width: 1199px) {
+  .portfolio-three-shape {
+    top: 150px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-three-shape {
+    top: 120px;
+  }
+}
 .portfolio-three-counter .tw-btn-circle {
   width: 282px;
   height: 282px;
@@ -8879,51 +8892,51 @@ body.tw-magic-cursor #magic-cursor {
     -4px -4px 0 0 rgba(255, 255, 255, 0.25);
 }
 .portfolio-three-shape-title {
-  font-size: 642px;
+  font-size: 460px;
 }
 @media screen and (max-width: 1799px) {
   .portfolio-three-shape-title {
-    font-size: 580px;
+    font-size: 420px;
   }
 }
 @media screen and (max-width: 1699px) {
   .portfolio-three-shape-title {
-    font-size: 555px;
+    font-size: 400px;
   }
 }
 @media screen and (max-width: 1499px) {
   .portfolio-three-shape-title {
-    font-size: 480px;
+    font-size: 350px;
   }
 }
 @media screen and (max-width: 1399px) {
   .portfolio-three-shape-title {
-    font-size: 415px;
+    font-size: 305px;
   }
 }
 @media screen and (max-width: 1199px) {
   .portfolio-three-shape-title {
-    font-size: 340px;
+    font-size: 250px;
   }
 }
 @media screen and (max-width: 991px) {
   .portfolio-three-shape-title {
-    font-size: 265px;
+    font-size: 195px;
   }
 }
 @media screen and (max-width: 767px) {
   .portfolio-three-shape-title {
-    font-size: 200px;
+    font-size: 145px;
   }
 }
 @media screen and (max-width: 575px) {
   .portfolio-three-shape-title {
-    font-size: 146px;
+    font-size: 105px;
   }
 }
 @media screen and (max-width: 424px) {
   .portfolio-three-shape-title {
-    font-size: 130px;
+    font-size: 95px;
   }
 }
 
