@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 40" width="210" height="40" role="img" aria-label="Sharla Devrina Aurelliya">
+  <g>
+    <circle cx="12" cy="14" r="6" fill="#FF5100"/>
+    <circle cx="12" cy="28" r="6" fill="#D6FD03"/>
+  </g>
+  <text x="30" y="20" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">SHARLA</text>
+  <text x="31" y="33" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="500" letter-spacing="2.2" fill="#FFFFFF" opacity="0.75">DEVRINA AURELLIYA</text>
+</svg>
