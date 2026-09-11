@@ -49,6 +49,28 @@
     <link rel="stylesheet" href="assets/css/aos.css" />
     <!-- Main css -->
     <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+      /* Hero portrait: fade the bottom of the cut-out into the section
+         background so it doesn't end on a hard horizontal edge. */
+      .banner-three-man img {
+        -webkit-mask-image: linear-gradient(
+          to bottom,
+          #000 55%,
+          transparent 100%
+        );
+        mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+      }
+      /* On small screens the hero stacks tightly: lift the portrait and give
+         the headline a little breathing room so they stop colliding. */
+      @media screen and (max-width: 991px) {
+        .banner-three-man {
+          inset-block-end: 45%;
+        }
+        .banner-three-center-title {
+          margin-block-start: 40px;
+        }
+      }
+    </style>
   </head>
 
   <body class="tw-magic-cursor">
@@ -421,8 +443,8 @@
                       alt="Portrait of Sharla Devrina Aurelliya"
                     />
                   </div>
-                  <h1 class="banner-three-title text-black tw-mb-10">
-                    Sharla <br />
+                  <h1 class="banner-three-title text-black tw-mb-30">
+                    Sharla
                   </h1>
                   <div
                     class="banner-three-wrap d-flex justify-content-between align-items-end position-relative z-1"
@@ -500,8 +522,7 @@
                       data-aos-delay="200"
                     >
                       <h3 class="banner-three-center-title tw-text-120">
-                        Turning scattered information into records, documents,
-                        and reports people can rely on.
+                        Making information easy to find, use, and trust.
                       </h3>
                       <div
                         class="banner-three-button d-flex justify-content-center flex-wrap tw-gap-4"
