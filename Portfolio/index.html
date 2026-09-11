@@ -53,6 +53,8 @@
       /* Hero portrait: fade the bottom of the cut-out into the section
          background so it doesn't end on a hard horizontal edge. */
       .banner-three-man img {
+        width: min(40vw, 600px);
+        height: auto;
         -webkit-mask-image: linear-gradient(
           to bottom,
           #000 55%,
@@ -65,6 +67,9 @@
       @media screen and (max-width: 991px) {
         .banner-three-man {
           inset-block-end: 45%;
+        }
+        .banner-three-man img {
+          width: min(72vw, 500px);
         }
         .banner-three-center-title {
           margin-block-start: 40px;
@@ -1498,7 +1503,7 @@
                     </div>
                     <div
                       class="hover__reveal-bg bg-img"
-                      data-background-image="assets/images/thumbs/sharla-portrait.png"
+                      data-background-image="assets/images/thumbs/ijazah.png"
                     ></div>
                   </div>
                   <div
